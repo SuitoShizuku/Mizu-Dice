@@ -1,0 +1,30 @@
+{
+  "name": "mizu-dice",
+  "version": "1.0.0",
+  "description": "ダイスエンジン",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuitoShizuku/Mizu-Dice.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "dice"
+  ],
+  "author": "suitoshizuku",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SuitoShizuku/Mizu-Dice/issues"
+  },
+  "homepage": "https://github.com/SuitoShizuku/Mizu-Dice#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.7",
+    "typescript": "^7.0.2"
+  }
+}
